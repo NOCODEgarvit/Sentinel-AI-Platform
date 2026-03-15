@@ -1,0 +1,29 @@
+# Environments & Caches
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Mac OS System Files
+.DS_Store
+
+# Raw Datasets (Too large for GitHub)
+data/
+
+# Old / Intermediate Model Iterations
+saved_models/
+best_ids_model.pkl
+feature_names.pkl
+final_ids_model.pkl
+hybrid_autoencoder_model.h5
+hybrid_xgboost_model.pkl
+scaler.pkl
+optimal_threshold.txt
+recommended_threshold.txt
+
+# Old Notebooks
+notebook.ipynb
+
+# Screenshots & Images
+*.png
+*.jpg
+*.jpeg
