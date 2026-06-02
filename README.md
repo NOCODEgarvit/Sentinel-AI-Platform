@@ -9,7 +9,7 @@ Sentinel-AI is a next-generation network security platform that combines traditi
 
 ## 🧠 Hybrid Architecture
 
-This system utilizes a dual-engine machine learning pipeline to maximize detection rates while minimizing false positives, achieving a **91.47% accuracy** on the rigorous KDDTest+ network dataset.
+This system utilizes a dual-engine machine learning pipeline to maximize detection rates while minimizing false positives, achieving a **90.80% accuracy** on the rigorous KDDTest+ network dataset.
 
 1. **XGBoost Classifier (Signature Detection):** Trained to instantly recognize the static signatures of known network attacks.
 2. **Deep Autoencoder (Zero-Day Anomaly Detection):** A neural network trained exclusively on benign traffic. It calculates a dynamic Mean Squared Error (MSE) reconstruction score to flag previously unseen, zero-day anomalies that bypass traditional firewalls.
